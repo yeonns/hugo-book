@@ -11,4 +11,8 @@
   translation: Expand
 
 - id: bookSearchConfig
-  translation: '{ cache: true }'
+  translation: |
+    {
+      encode: "icase", 
+      split: " "  
+    }
